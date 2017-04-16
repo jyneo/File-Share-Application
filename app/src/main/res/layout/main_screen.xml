@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/my_titlebar" />
+    
+	<com.example.fileshare.MyGridView 
+	   	android:id="@+id/gridView"
+	   	android:layout_height="wrap_content" 
+	    android:layout_width="match_parent" 
+	   	android:scrollbars="none" 
+	   	android:verticalSpacing="0.0dp" 
+	    android:stretchMode="columnWidth" 
+	    android:numColumns="3" 
+	    android:listSelector="@null" 
+	    android:horizontalSpacing="0.0dp"/>
+	
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 首页gridview -->
+    <string-array name="home_grid_texts">
+        <item>局域网扫描</item>
+        <item>图像捕捉</item>
+        <item>图形裁剪</item>
+        <item>图像合成</item>
+        <item>用户设置</item>
+    </string-array>
+
+    <array name="home_grid_images">
+        <item>@drawable/network_scanning</item>
+        <item>@drawable/image_capture</item>
+        <item>@drawable/image_clipping</item>
+        <item>@drawable/image_synthesis</item>
+        <item>@drawable/user_setting</item>
+    </array>
+
+</resources>

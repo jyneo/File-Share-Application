@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <drawable name="button_normal">#ff6501</drawable>
+    <drawable name="button_pressed">#a44100</drawable>
+
+    <string name="app_name">FileShare局域网文件共享系统</string>
+    <string name="hello">Hello world, Login!</string>
+    <string name="welcome">欢迎使用局域网文件共享系统</string>
+
+    <string name="user_name">用户账号：</string>
+    <string name="user_password">用户密码：</string>
+
+    <string name="name_hint">请输入用户账号</string>
+    <string name="password_hint">请输入登录密码</string>
+
+    <string name="register_name_hint">请输入您的用户名</string>
+    <string name="register_password_hint">请输入您的密码</string>
+    <string name="check_password_hint">请确认您的密码</string>
+
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="forget">忘记密码？</string>
+
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+
+
+    <string name="system_setting">软件相关</string>
+    <string name="user_setting">用户设置</string>
+    <string name="logout">注销</string>
+    <string name="setting_feedback">意见反馈</string>
+    <string name="setting_contact_me">关于我们</string>
+
+    <string name="resetpassword_edit_name">请输入您的用户名</string>
+    <string name="resetpassword_edit_pwd_old">请输入您的旧密码</string>
+    <string name="resetpassword_edit_pwd_new">请输入您的新密码</string>
+    <string name="resetpassword_edit_pwd_check">请确认您的新密码</string>
+
+    <string name="info">个人资料设置</string>
+    <string name="sex">性别：</string>
+    <string name="boy">男</string>
+    <string name="phone">手机：</string>
+    <string name="number">18896977021</string>
+    <string name="mail">邮箱：</string>
+    <string name="mail_address">jyneo@mail.ustc.edu.cn</string>
+    <string name="address">地址：</string>
+    <string name="address_name">中科大苏州研究院</string>
+    <string name="revise">点击修改资料</string>
+
+    <string name="scanning">开始扫描</string>
+
+    <string name="take_photo">拍照</string>
+    <string name="album">从相册选择</string>
+    <string name="cancel_menu">取消</string>
+    <string name="photo_camera_tv">点击启动相机</string>
+    <string name="photo_album_tv">从相册选择</string>
+    <string name="result">结果展示：</string>
+
+    <string name="enable_p2p_button">P2P On/Off</string>
+    <string name="discover_peers_button">Discover</string>
+    <string name="connect_peer_button">Connect</string>
+    <string name="disconnect_peer_button">Disconnect</string>
+    <string name="get_file_button">Launch Gallery</string>
+    <string name="empty"></string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="client_text">This device will act as a client. Click on Gallery button to pick a local(stored) file</string>
+    <string name="empty_message">No devices found. Turn on P2P and perform discovery from the Action Bar</string>
+    <string name="p2p_off_warning">Enable P2P from action bar button above or system settings</string>
+    <string name="group_owner_text">"Am I the Group Owner? "</string>
+    <string name="label_me">ME</string>
+    <string name="label_peers">PEERS</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+</resources>

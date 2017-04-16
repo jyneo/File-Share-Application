@@ -1,0 +1,96 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/my_titlebar" />
+
+    <TextView
+        android:id="@+id/photo_album_tv"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/login_register_selector"
+        android:padding="10dp"
+        android:text="@string/photo_album_tv"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/photo_camera_tv"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/holo_red_dark"
+        android:padding="10dp"
+        android:text="@string/photo_camera_tv"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:text="@string/result"
+        android:textColor="@android:color/black"/>
+
+
+    <ImageView
+        android:id="@+id/photo_result_iv"
+        android:layout_width="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="150dp"
+        android:background="#999999"
+        android:contentDescription="@string/hello" />
+
+  
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/photo_phone_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textColor="@android:color/black"
+                />
+
+            <TextView
+                android:id="@+id/photo_latlng_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:textColor="@android:color/black"
+                />
+
+
+            <TextView
+                android:id="@+id/photo_location_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:textColor="@android:color/black"
+                />
+        </LinearLayout>
+  
+</LinearLayout>

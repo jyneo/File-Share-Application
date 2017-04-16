@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:stretchColumns="1" 
+    android:background="@color/white"
+    android:layout_gravity="center_horizontal" 
+    android:layout_height="match_parent" 
+    android:layout_width="match_parent" >
+    
+    <include
+        android:id="@+id/title"
+        layout="@layout/my_titlebar" />
+
+	<ImageView 
+	    android:layout_height="@dimen/image_height"
+	    android:layout_width="wrap_content" 
+	    android:contentDescription="@string/hello" 
+	    android:src="@drawable/logo" 
+	    android:scaleType="fitCenter"/>
+
+	<TextView android:id="@+id/TextView" 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="match_parent" 
+	    android:padding="@dimen/title_padding" 
+	    android:gravity="center" 
+	    android:textSize="@dimen/label_font_size" 
+	    android:text="@string/welcome"/>
+
+	<!-- 输入用户名的行 -->
+	<TableRow>
+	    <TextView 
+	        android:layout_height="wrap_content" 
+	        android:layout_width="wrap_content"
+	        android:layout_marginStart="@dimen/text_horizontal_margin"
+	        android:layout_marginLeft="@dimen/text_horizontal_margin" 
+	        android:textSize="@dimen/label_font_size" 
+	        android:text="@string/user_name"/>
+	    <EditText 
+	        android:id="@+id/userEditText" 
+	        android:layout_height="wrap_content" 
+	        android:layout_width="match_parent"
+	        android:layout_marginEnd="@dimen/text_horizontal_margin"
+	        android:layout_marginRight="@dimen/text_horizontal_margin"
+	        android:hint="@string/name_hint" 
+	        android:inputType="text"/>
+	</TableRow>
+
+	<!-- 输入密码的行 -->
+	<TableRow>
+	    <TextView
+	        android:layout_height="wrap_content" 
+	        android:layout_width="wrap_content" 
+	        android:layout_marginStart="@dimen/text_horizontal_margin"
+	        android:layout_marginLeft="@dimen/text_horizontal_margin"
+	        android:textSize="@dimen/label_font_size" 
+	        android:text="@string/user_password"/>
+	    <EditText 
+	        android:id="@+id/passwordEditText" 
+	        android:layout_height="wrap_content" 
+	        android:layout_width="match_parent"
+	        android:layout_marginEnd="@dimen/text_horizontal_margin"
+	        android:layout_marginRight="@dimen/text_horizontal_margin" 
+	        android:text="" 
+	        android:hint="@string/password_hint"
+	        android:inputType="textPassword"/>
+	</TableRow>
+
+	<!-- 定义登录、注册按钮的行 -->
+	<LinearLayout 
+	    android:layout_height="wrap_content" 
+	    android:layout_width="wrap_content" 
+	    android:gravity="center" 
+	    android:orientation="vertical">
+	    <Button 
+	        android:id="@+id/Login" 
+	        android:layout_height="wrap_content" 
+	        android:layout_width="match_parent"
+	        android:layout_marginTop="@dimen/text_vertical_margin"
+	        android:layout_marginStart="@dimen/text_horizontal_margin"
+	        android:layout_marginLeft="@dimen/text_horizontal_margin"
+	        android:layout_marginEnd="@dimen/text_horizontal_margin"
+	        android:layout_marginRight="@dimen/text_horizontal_margin"
+	        android:textColor="@android:color/white"
+            android:background="@drawable/login_register_selector" 
+	        android:text="@string/login"/>
+	    <Button 
+	        android:id="@+id/Register" 
+	        android:layout_height="wrap_content" 
+	        android:layout_width="match_parent"
+	        android:layout_marginTop="@dimen/text_vertical_margin"
+	        android:layout_marginStart="@dimen/text_horizontal_margin"
+	        android:layout_marginLeft="@dimen/text_horizontal_margin"
+	        android:layout_marginEnd="@dimen/text_horizontal_margin"
+	        android:layout_marginRight="@dimen/text_horizontal_margin"
+	        android:textColor="@android:color/white"
+            android:background="@drawable/login_register_selector" 
+	        android:text="@string/register"/>
+	    <Button 
+	        android:id="@+id/forget" 
+	        android:layout_height="wrap_content" 
+	        android:layout_width="match_parent"
+	        android:layout_marginTop="@dimen/text_vertical_margin"
+	        android:layout_marginStart="@dimen/text_horizontal_margin"
+	        android:layout_marginLeft="@dimen/text_horizontal_margin"
+	        android:layout_marginEnd="@dimen/text_horizontal_margin"
+	        android:layout_marginRight="@dimen/text_horizontal_margin"
+	        android:textColor="@android:color/white"
+            android:background="@drawable/login_register_selector" 
+	        android:text="@string/forget"/>	    
+	</LinearLayout>
+
+</TableLayout>

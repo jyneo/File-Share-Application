@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/white"
+    android:weightSum="1">
+
+    <!-- <include
+        android:id="@+id/title"
+        layout="@layout/my_titlebar" /> -->
+    
+    <EditText
+        android:drawableLeft="@android:drawable/ic_lock_idle_charging"
+        android:drawableStart="@android:drawable/ic_lock_idle_charging"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/register_edit_name"
+        android:layout_alignParentTop="true"
+        android:hint="@string/register_name_hint"
+        android:layout_alignLeft="@+id/register_edit_pwd_new"
+        android:layout_alignStart="@+id/register_edit_pwd_new"
+        android:layout_alignRight="@+id/register_edit_pwd_new"
+        android:layout_alignEnd="@+id/register_edit_pwd_new" />
+
+    <EditText
+        android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+        android:drawableStart="@android:drawable/ic_lock_idle_lock"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/register_edit_pwd_old"
+        android:hint="@string/register_password_hint"
+        android:layout_below="@+id/register_edit_name"
+        android:layout_alignRight="@+id/register_edit_name"
+        android:layout_alignEnd="@+id/register_edit_name"
+        android:layout_alignLeft="@+id/register_edit_name"
+        android:layout_alignStart="@+id/register_edit_name" />
+
+    <EditText
+        android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+        android:drawableStart="@android:drawable/ic_lock_idle_lock"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/register_edit_pwd_new"
+        android:layout_below="@+id/register_edit_pwd_old"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/check_password_hint" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm"
+        android:id="@+id/register_button_sure"
+        android:textSize="@dimen/label_font_size"
+        android:textColor="@android:color/white"
+        android:background="@drawable/login_register_selector"
+        android:layout_below="@+id/register_edit_pwd_new"
+        android:layout_alignLeft="@+id/register_edit_pwd_new"
+        android:layout_alignStart="@+id/register_edit_pwd_new"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:id="@+id/register_button_cancel"
+        android:textSize="@dimen/label_font_size"
+        android:textColor="@android:color/white"
+        android:background="@drawable/login_register_selector"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/register_button_sure"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

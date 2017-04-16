@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:background="@color/white"
+    android:fitsSystemWindows="true">
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/my_titlebar" />
+
+    <ImageView
+        android:src="@drawable/default_select_photo"
+        android:id="@+id/default_select_photo"
+        android:contentDescription="@string/hello"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fileshare"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <uses-feature
+        android:name="android.hardware.wifi.direct"
+        android:required="true" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_CALL_LOG" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="43a9940f2f1ebc71ebac868d5f9b4c57" />
+
+        <service android:name="com.amap.api.location.APSService" />
+
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <!-- 并没有隐藏应用程序的图标 -->
+                <!-- <data android:host="AuthActivity" android:scheme="com.android.example.fileshare"/> -->
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainScreen"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".Register"
+            android:label="用户注册"></activity>
+        <activity
+            android:name=".Setting"
+            android:label="用户设置"></activity>
+        <activity
+            android:name=".UserInfo"
+            android:label="个人信息"></activity>
+        <activity
+            android:name="com.function.fileshare.Capture"
+            android:label="图像捕捉"></activity>
+        <activity
+            android:name="com.function.fileshare.Clipping"
+            android:label="图像裁剪"></activity>
+        <activity
+            android:name="com.function.fileshare.WiFiDirectActivity"
+            android:label="局域网扫描"
+            android:launchMode="singleTask"></activity>
+
+        <service
+            android:name=".FileTransferService"
+            android:enabled="true" />
+
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"></activity>
+    </application>
+
+</manifest>

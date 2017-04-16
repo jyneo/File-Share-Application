@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/jyneo/Documents/AndroidStudioProjects/FileShare/app/libs/Android_Map3D_SDK_V4.1.2_20161104.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02f1fa1d79c716b42336b4874e024c075a4930d0">
+        <dex dex="/Users/jyneo/Documents/AndroidStudioProjects/FileShare/app/build/intermediates/transforms/dex/debug/folders/1000/2/Android_Map3D_SDK_V4.1.2_20161104_8e7b373107dcac59eb2658c68015f4c03ca5c0b3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jyneo/Documents/AndroidStudioProjects/FileShare/app/libs/AMap_Search_V3.5.0_20160927.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c92af2298bc2eac395e05139bcfe1a1a51677726">
+        <dex dex="/Users/jyneo/Documents/AndroidStudioProjects/FileShare/app/build/intermediates/transforms/dex/debug/folders/1000/2/AMap_Search_V3.5.0_20160927_00d318a02815a390b9795e286cbe4f321288d7a4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jyneo/Documents/AndroidStudioProjects/FileShare/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/Users/jyneo/Documents/AndroidStudioProjects/FileShare/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_e5226c9d21b53c79a42819d9050fecea014f264b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jyneo/Documents/AndroidStudioProjects/FileShare/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/Users/jyneo/Documents/AndroidStudioProjects/FileShare/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_4dda09bc598c37b33f98d9ea8ce9d6cb219058bb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jyneo/Documents/AndroidStudioProjects/FileShare/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="74e0bbd1134ec5065d7944ef16c4dd6014128a29">
+        <dex dex="/Users/jyneo/Documents/AndroidStudioProjects/FileShare/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_cca6f2c9592bcc45a991c9e9adcddf70d735b845/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jyneo/Documents/AndroidStudioProjects/FileShare/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/Users/jyneo/Documents/AndroidStudioProjects/FileShare/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_b11eaa5b915a43cea01f81f0250e6db7088e50e4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jyneo/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/Users/jyneo/Documents/AndroidStudioProjects/FileShare/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_997fa38ed6588ba8f817385b1a78d217796c6452/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jyneo/Documents/AndroidStudioProjects/FileShare/app/libs/Amap_2DMap_V2.9.2_20161026.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dcbd36804ce96710b0acb0bc7e2e2854a800d2a3">
+        <dex dex="/Users/jyneo/Documents/AndroidStudioProjects/FileShare/app/build/intermediates/transforms/dex/debug/folders/1000/2/Amap_2DMap_V2.9.2_20161026_e0798948aa03293b9ce6f2e380089794fb47499f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jyneo/Documents/AndroidStudioProjects/FileShare/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/Users/jyneo/Documents/AndroidStudioProjects/FileShare/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_4d9c67da827ea47789f45e773e5ec6feacb068c7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jyneo/Documents/AndroidStudioProjects/FileShare/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/Users/jyneo/Documents/AndroidStudioProjects/FileShare/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_c0352a654ef88bfe1ae603575e1f7e0cb2f5a703/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jyneo/Documents/AndroidStudioProjects/FileShare/app/libs/android-support-v4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1dc1f63cee098b27db60b9a2833fd7ca58f89636">
+        <dex dex="/Users/jyneo/Documents/AndroidStudioProjects/FileShare/app/build/intermediates/transforms/dex/debug/folders/1000/2/android-support-v4_2cb080af18c06aa96c3c6081c54f50e5fe0569da/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jyneo/Documents/AndroidStudioProjects/FileShare/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/Users/jyneo/Documents/AndroidStudioProjects/FileShare/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_0316825d3678f6ee6f0a258e4eb47c5229225501/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jyneo/Documents/AndroidStudioProjects/FileShare/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="200ac49c3df1b7c66ffa6ff690c278db2178a996">
+        <dex dex="/Users/jyneo/Documents/AndroidStudioProjects/FileShare/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6a9851f0fdfef1748f0091d5584d06e8ae87b650/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jyneo/Documents/AndroidStudioProjects/FileShare/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/Users/jyneo/Documents/AndroidStudioProjects/FileShare/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.0_d1917d420a5f4b1f19bbdb3e9b176cfc7c1a3c3a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jyneo/Documents/AndroidStudioProjects/FileShare/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/jyneo/Documents/AndroidStudioProjects/FileShare/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.0_fb8bcee35d71dc4e1704724b53fade68131d241f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jyneo/Documents/AndroidStudioProjects/FileShare/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/Users/jyneo/Documents/AndroidStudioProjects/FileShare/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.0_f5ccbc6160dbcdd89d100c64705c7d0a2e84584e/classes.dex" />
+    </item>
+
+</items>
